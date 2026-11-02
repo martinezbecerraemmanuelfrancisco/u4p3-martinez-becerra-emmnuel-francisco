@@ -1,0 +1,363 @@
+[
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "123a",
+    "last_login": "2026-09-29T11:40:00Z",
+    "is_superuser": true,
+    "username": "manu",
+    "first_name": "becerra",
+    "last_name": "pco",
+    "email": "f@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-09-29T11:40:00Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$hlnCkYXeatpa72uMAIHMB0$a5xSq7Ep1Lnod1kG04Ux8yQnWjpoZrmAllhoA0tkfqY=",
+    "last_login": "2026-10-20T16:26:31.761Z",
+    "is_superuser": true,
+    "username": "Bismarck",
+    "first_name": "",
+    "last_name": "",
+    "email": "a25311033@uthermosillo.edu.mx",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-10-05T18:51:03.345Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$xOhqRU0MmD85tn1H3sn2My$+igMHVtlpr1tZm31VKH418Ctc/HY/oJcSjxTGOviqPk=",
+    "last_login": "2026-10-19T19:05:29.811Z",
+    "is_superuser": false,
+    "username": "ElMantecas",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-19T19:05:26.791Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$70LW9qjB0ZGYp9VpFLO5GD$/Y5rHOIAXGTLKP3Iy3bvT3XKKovfiLvYdJQCzCNYjQQ=",
+    "last_login": "2026-10-19T19:48:32.247Z",
+    "is_superuser": false,
+    "username": "usuario_a",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-19T19:42:51.214Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$ARt7wlKZKGtlgskFgTBK8O$YAWpu1+mZPQmY0Xwdu3YJ4GrlFySdw1MP7pfwX5Unxc=",
+    "last_login": "2026-10-19T20:12:32.090Z",
+    "is_superuser": false,
+    "username": "usuario_b",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-19T19:43:14.273Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 2,
+  "fields": {
+    "propietario": [
+      "manu"
+    ],
+    "titulo": "Intalacion SO",
+    "descripcion": "Intalacion de sistem operativo",
+    "precio": "450.00",
+    "categoria": "Instalacion",
+    "creado_en": "2026-09-28T14:30:12Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 3,
+  "fields": {
+    "propietario": [
+      "Bismarck"
+    ],
+    "titulo": "Sopleteada",
+    "descripcion": "Sopletele todavi aguant",
+    "precio": "1500.00",
+    "categoria": "Servicios",
+    "creado_en": "2026-10-06T00:41:27.475Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 4,
+  "fields": {
+    "propietario": null,
+    "titulo": "Drivers",
+    "descripcion": "Instalación de drivers",
+    "precio": "330.00",
+    "categoria": "Servicios",
+    "creado_en": "2026-10-06T15:27:28.225Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 5,
+  "fields": {
+    "propietario": null,
+    "titulo": "PS2 Chipeada",
+    "descripcion": "Chipeo de un PS2",
+    "precio": "420.10",
+    "categoria": "Servicios",
+    "creado_en": "2026-10-06T15:28:04.434Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 7,
+  "fields": {
+    "propietario": [
+      "Bismarck"
+    ],
+    "titulo": "Liberacion de PS3",
+    "descripcion": "Libera el sistema de PS3 para correr software sin licencia",
+    "precio": "100.00",
+    "categoria": "Servicios",
+    "creado_en": "2026-10-13T16:17:18.224Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 8,
+  "fields": {
+    "propietario": [
+      "Bismarck"
+    ],
+    "titulo": "Mantenimiento de telefono",
+    "descripcion": "Limpia y repara los desperfecto del telefono",
+    "precio": "566.00",
+    "categoria": "Servicios",
+    "creado_en": "2026-10-13T16:18:14.095Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 9,
+  "fields": {
+    "propietario": [
+      "ElMantecas"
+    ],
+    "titulo": "Drivers",
+    "descripcion": "Instalación y actualización de drivers",
+    "precio": "250.90",
+    "categoria": "Servicios",
+    "creado_en": "2026-10-19T19:06:07.366Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 10,
+  "fields": {
+    "propietario": [
+      "usuario_a"
+    ],
+    "titulo": "Venta de limones",
+    "descripcion": "Vendo limones",
+    "precio": "100.00",
+    "categoria": "Venta",
+    "creado_en": "2026-10-19T19:45:22.480Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 11,
+  "fields": {
+    "propietario": [
+      "usuario_a"
+    ],
+    "titulo": "Venta de Naranjas",
+    "descripcion": "Vendo naranjas",
+    "precio": "150.90",
+    "categoria": "Venta",
+    "creado_en": "2026-10-19T19:45:55.776Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 13,
+  "fields": {
+    "propietario": [
+      "usuario_b"
+    ],
+    "titulo": "Flasheo de PS4",
+    "descripcion": "Uso de las vulnerabilidades de la consola para correr código no licenciado",
+    "precio": "1250.00",
+    "categoria": "Servicios",
+    "creado_en": "2026-10-19T19:47:26.884Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 14,
+  "fields": {
+    "propietario": [
+      "usuario_b"
+    ],
+    "titulo": "Servicio de limpieza general",
+    "descripcion": "Limpieza con maquinaria pesada",
+    "precio": "12000.00",
+    "categoria": "Limpieza",
+    "creado_en": "2026-10-19T20:19:00.387Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 15,
+  "fields": {
+    "propietario": [
+      "Bismarck"
+    ],
+    "titulo": "Auriculares Inalámbricos",
+    "descripcion": "Auriculares bluetooth con cancelación activa de ruido y 24h de batería.",
+    "precio": "89.99",
+    "categoria": "Electrónica",
+    "creado_en": "2026-10-20T15:27:18.054Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 16,
+  "fields": {
+    "propietario": [
+      "Bismarck"
+    ],
+    "titulo": "Café en Grano Orgánico",
+    "descripcion": "Bolsa de 1 kg de café arábica de tueste natural y origen ético.",
+    "precio": "18.50",
+    "categoria": "Alimentos y Bebidas",
+    "creado_en": "2026-10-20T15:27:37.484Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 17,
+  "fields": {
+    "propietario": [
+      "Bismarck"
+    ],
+    "titulo": "Silla de Escritorio Ergonomica",
+    "descripcion": "Silla con soporte lumbar regulable y malla transpirable para oficina.",
+    "precio": "145.00",
+    "categoria": "Hogar y Muebles",
+    "creado_en": "2026-10-20T15:27:57.096Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 18,
+  "fields": {
+    "propietario": [
+      "Bismarck"
+    ],
+    "titulo": "Tenis Deportivos Running",
+    "descripcion": "Calzado ligero con amortiguación de alto impacto para correr.",
+    "precio": "75.00",
+    "categoria": "Deportes y Moda",
+    "creado_en": "2026-10-20T15:28:20.551Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 19,
+  "fields": {
+    "propietario": [
+      "Bismarck"
+    ],
+    "titulo": "Mochila Impermeable para Laptop",
+    "descripcion": "Mochila de 25L con compartimento acolchado de 15.6 pulgadas y puerto USB.",
+    "precio": "39.99",
+    "categoria": "Accesorios",
+    "creado_en": "2026-10-20T15:28:40.467Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 20,
+  "fields": {
+    "propietario": [
+      "Bismarck"
+    ],
+    "titulo": "Lámpara LED de Escritorio",
+    "descripcion": "Lámpara táctil con 5 niveles de brillo y brazo flexible.",
+    "precio": "24.90",
+    "categoria": "Hogar y Muebles",
+    "creado_en": "2026-10-20T15:28:53.765Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 21,
+  "fields": {
+    "propietario": [
+      "Bismarck"
+    ],
+    "titulo": "Botella Térmica de Acero",
+    "descripcion": "Termo de 750 ml que mantiene bebidas frías por 24 horas y calientes por 12.",
+    "precio": "15.00",
+    "categoria": "Deportes y Aire Libre",
+    "creado_en": "2026-10-20T15:29:10.616Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 22,
+  "fields": {
+    "propietario": [
+      "Bismarck"
+    ],
+    "titulo": "Botella Térmica de Acero",
+    "descripcion": "Termo de 750 ml que mantiene bebidas frías por 24 horas y calientes por 12.",
+    "precio": "15.00",
+    "categoria": "Deportes y Aire Libre",
+    "creado_en": "2026-10-20T15:29:15.181Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 23,
+  "fields": {
+    "propietario": [
+      "Bismarck"
+    ],
+    "titulo": "Sartén Antiadherente de Cerámica",
+    "descripcion": "Sartén de 28 cm libre de PFOA apta para todo tipo de cocinas.",
+    "precio": "32.50",
+    "categoria": "Cocina y Hogar",
+    "creado_en": "2026-10-20T15:29:32.960Z"
+  }
+}
+]
