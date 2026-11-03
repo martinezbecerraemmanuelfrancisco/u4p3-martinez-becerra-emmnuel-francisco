@@ -61,6 +61,8 @@ class Servicio(models.Model):
     def __str__(self):
         # devuelve el título del servicio
         return self.titulo
+
+
 # class Factura: NUEVA tabla "core_factura"; el encabezado de cada venta
 class Factura(models.Model):
     # usuario: quién emite la factura (el dueño de los servicios); el mismo candado que propietario en Servicio
@@ -87,7 +89,7 @@ class Factura(models.Model):
         # cierra la lista de índices
         ]
 
-        # @property: folio se usa como si fuera un campo (factura.folio), pero se calcula y no ocupa columna
+    # @property: folio se usa como si fuera un campo (factura.folio), pero se calcula y no ocupa columna
     @property
     # folio: arma un folio legible a partir del id
     def folio(self):
@@ -102,6 +104,7 @@ class Factura(models.Model):
     def __str__(self):
         # ejemplo: "F-00007 · Papelería Luna"
         return f'{self.folio} · {self.cliente}'
+
 
 # class DetalleFactura: NUEVA tabla "core_detallefactura"; cada renglón (partida) de una factura
 class DetalleFactura(models.Model):
